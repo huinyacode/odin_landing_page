@@ -37,7 +37,9 @@ body {
 .link {
     cursor: pointer;
 }
-
+.link a {
+    color:#e5e7eb;
+}
 a:visited {
     text-decoration: none;
     color: #e5e7eb;
