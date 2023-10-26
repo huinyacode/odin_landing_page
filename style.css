@@ -1,0 +1,219 @@
+* {
+    margin:0;
+    
+}
+
+body {
+    font-family:  sans-serif;
+}
+
+/* styles for headler */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+    padding-top:10px;
+    margin-left:20px;
+    
+}
+
+.logo_links {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top:10px;
+    margin-right: 40px;
+}
+
+.link {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:active {
+    color: green
+}
+
+/* styles for hero*/
+
+.hero {
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    background-color:#1f2937;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 50px;
+    max-width: 1400px;
+}
+
+.info {
+    flex: 0 1 600px;
+
+}
+
+.info_title {
+    padding:20px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.info_text {
+    padding: 20px;
+    font-size: 18px;
+    color:#e5e7eb;
+
+}
+
+.button_sign_up {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px 20px;
+    font-weight: bold;
+}
+
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 800px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* place for facts */
+.randomfact {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left:40px;
+}
+
+.facts_main_text {
+    text-align: center;
+    font-size:36px;
+    font-weight: 800;
+    color: #1f2937
+    
+}
+
+.facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.fact {
+    flex: 0 1 300px;
+    font-size:18px;
+}
+.fact img {
+    border-radius: 10px;
+    width: 100%;
+    border: 3px solid #3882f6;
+}
+
+/* Here will be quote*/
+
+.quotes {
+    background-color: #e5e7eb;
+    padding:20px;
+}
+.flex_quote {
+
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.anot {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* this part for test */
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-test {
+    padding:100px;
+    display: flex;
+    flex: 1 1 400px;
+    justify-content: center;
+
+}
+.some {
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    background-color: #3882f6;
+    padding:40px 100px;
+    border-radius:10px;
+    color: #fff;
+}
+.text-test {
+    font-size: 18px;
+}
+.test_button {
+    flex: 1 1 30px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #3882f6;
+    font-weight: 600;  
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 5px 15px;
+}
+.some a {
+    text-decoration: none;
+}
+.some a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.some a:active {
+    text-decoration: none;
+    color: green;
+}
+.footer {
+    color: #f9faf8;
+    padding: 40px;
+    background-color: #1f2937;
+    text-align: center;
+    bottom: 0;
+}
