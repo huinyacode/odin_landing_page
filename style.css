@@ -60,26 +60,27 @@ a:active {
     background-color:#1f2937;
     align-items: center;
     padding: 50px 20px;
-    gap: 50px;
+    gap: 30px;
     max-width: 1400px;
 }
 
 .info {
-    flex: 0 1 600px;
-
+    flex: 0 1 400   px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .info_title {
     padding:20px;
-    font-size: 48px;
+    font-size: calc(12px + 4vw);
     font-weight: 800;
     color: #f9faf8;
 }
 
 .info_text {
     padding: 20px;
-    font-size: 18px;
+    font-size: calc(5px + 2vw);
     color:#e5e7eb;
 
 }
@@ -96,8 +97,11 @@ a:active {
 
 .pic {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    flex: 0 1 800px;
+    flex: 0 1 350px;
+    min-width: 40%;
 }
 
 .image {
@@ -185,6 +189,7 @@ a:active {
 .some {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap:40px;
     background-color: #3882f6;
     padding:40px 100px;
@@ -196,8 +201,10 @@ a:active {
     
 }
 .test_button {
+    max-height: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex: 1 1 30px;
     color: #fff;
     font-size: 18px;
