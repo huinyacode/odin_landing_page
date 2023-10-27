@@ -65,7 +65,7 @@ a:active {
 }
 
 .info {
-    flex: 0 1 400   px;
+    flex: 0 1 400px;
     display: flex;
     flex-direction: column;
 
@@ -93,6 +93,7 @@ a:active {
     font-size: 20px;
     margin: 30px 20px;
     font-weight: bold;
+    max-width: fit-content;
 }
 
 .pic {
